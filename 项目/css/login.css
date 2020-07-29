@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #000;
+}
+.main {
+    margin: 200px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    width: 350px;
+    height: 350px;
+    background: #FFFFFF;
+}
+.title {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 60px;
+}
+.title span {
+    font-size: 35px;
+    color: #000;
+}
+.title:hover{
+    cursor: default	;
+}
+.input-content {
+    width: 100%;
+    height: 120px;
+}
+.input-content input {
+    width: 330px;
+    height: 40px;
+    border: 1px solid #dad9d6;
+    background: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.enter-btn {
+    width: 350px;
+    height: 40px;
+    color: #fff;
+    background: #8e36ce;
+    line-height: 40px;
+    text-align: center;
+    border: 0px;
+}
+.foor{
+    width: 100%;
+    height: auto;
+    color: #9b9c98;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.enter-btn:hover {
+    cursor:pointer;
+    background: #8e36ce;
+}
+.foor div:hover {
+    cursor:pointer;
+    color: #484847;
+    font-weight: 600;
+}
+.forget-p{
+    float: left;
+}
+.regist{
+    float: right;
+}
